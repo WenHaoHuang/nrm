@@ -1,8 +1,10 @@
 {
-  "name": "nrm",
-  "version": "1.2.5",
+  "name": "@hg-ui/nrm",
+  "version": "0.0.1",
   "description": "NPM registry manager can help you easy and fast switch between different npm registries, now include: cnpm, taobao, nj(nodejitsu), edunpm",
-  "bin": "./cli.js",
+  "bin": {
+    "hg-nrm": "./cli.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/Pana/nrm.git"
@@ -22,14 +24,14 @@
   },
   "homepage": "https://github.com/Pana/nrm",
   "dependencies": {
-    "chalk": "^4.1.2",
-    "commander": "^8.3.0",
-    "ini": "^2.0.0",
+    "chalk": "4.1.2",
+    "commander": "8.3.0",
+    "ini": "2.0.0",
     "node-fetch": "2.6.6",
-    "open": "^8.4.0"
+    "open": "8.4.0"
   },
   "devDependencies": {
-    "coffee": "^5.4.0",
-    "jest": "^27.4.0"
+    "coffee": "5.4.0",
+    "jest": "27.4.0"
   }
 }
